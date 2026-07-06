@@ -1,0 +1,23 @@
+name: JoinLeaveSound
+version: 1.0.8
+main: com.dalict.joinleavesound.JoinLeaveSound
+api-version: 1.16
+author: Dalict
+website: https://github.com/Dalict
+
+commands:
+  joinleavesound:
+    description: 重载配置或管理静音玩家
+    aliases: [jls]
+    usage: |
+      /jls reload - 重载配置
+      /jls mute <玩家名> - 静音该玩家
+      /jls unmute <玩家名> - 取消静音
+
+permissions:
+  joinleavesound.reload:
+    description: 允许重载配置
+    default: op
+  joinleavesound.mute:
+    description: 允许静音/取消静音玩家
+    default: op

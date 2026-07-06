@@ -1,0 +1,7 @@
+no-permission: "&c你没有权限执行此命令"
+reload-success: "&a配置与消息已重载"
+command-usage: "&e用法: /jls reload | /jls mute <玩家名> | /jls unmute <玩家名>"
+mute-success: "&a已静音玩家 &e{player} &a的进出音效。"
+mute-already: "&e{player} &c已在静音列表中。"
+unmute-success: "&a已取消玩家 &e{player} &a的静音。"
+unmute-not-found: "&c玩家 &e{player} &c不在静音列表中。"

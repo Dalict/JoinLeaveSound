@@ -1,0 +1,11 @@
+# 加入音效设置
+join-sound:
+  sound: BLOCK_NOTE_BLOCK_PLING
+  volume: 1.0
+  pitch: 1.0
+
+# 离开音效设置
+leave-sound:
+  sound: BLOCK_NOTE_BLOCK_BASS
+  volume: 1.0
+  pitch: 1.0

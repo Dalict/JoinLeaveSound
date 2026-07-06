@@ -1,0 +1,14 @@
+# Maven
+target/
+
+# IDE
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
