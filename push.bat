@@ -38,8 +38,8 @@ if errorlevel 1 (
     echo.
     echo [警告] 未检测到远程仓库 origin。
     set /p repo_url="请输入远程仓库地址（例如 https://github.com/Dalict/JoinLeaveSound.git）: "
-    if not "!repo_url!"=="" (
-        git remote add origin !repo_url!
+    if not "%repo_url%"=="" (
+        git remote add origin %repo_url%
         echo [信息] 已添加远程仓库 origin。
     ) else (
         echo [错误] 未输入远程仓库地址，推送取消。
