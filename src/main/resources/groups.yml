@@ -1,0 +1,51 @@
+# 是否启用默认组
+enable-default: true
+# 是否启用自定义权限组
+enable-groups: true
+
+# 新玩家首次加入音效
+newbie:
+  enabled: true
+  join-sound:
+    # 音效id
+    sound: BLOCK_NOTE_BLOCK_PLING
+    # 音量
+    volume: 1.0
+    # 音调
+    pitch: 2.0
+
+default:
+  join-sound:
+    sound: BLOCK_NOTE_BLOCK_PLING
+    volume: 1.0
+    pitch: 1.0
+  leave-sound:
+    sound: BLOCK_NOTE_BLOCK_BASS
+    volume: 1.0
+    pitch: 1.0
+
+# 自定义权限组，优先级由上到下
+groups:
+  # 自定义组键名，可自由定义
+  admin:
+    # 权限组名字
+    permission: "joinleavesound.group.admin"
+    join-sound:
+      sound: UI_TOAST_CHALLENGE_COMPLETE
+      volume: 1.0
+      pitch: 1.0
+    leave-sound:
+      sound: ENTITY_LIGHTNING_BOLT_THUNDER
+      volume: 1.0
+      pitch: 1.0
+
+  vip:
+    permission: "joinleavesound.group.vip"
+    join-sound:
+      sound: ENTITY_PLAYER_LEVELUP
+      volume: 1.0
+      pitch: 1.2
+    leave-sound:
+      sound: ENTITY_ENDERMAN_TELEPORT
+      volume: 1.0
+      pitch: 1.0

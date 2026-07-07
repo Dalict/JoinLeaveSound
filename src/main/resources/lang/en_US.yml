@@ -1,0 +1,7 @@
+no-permission: "&cYou don't have permission to use this command"
+reload-success: "&aConfiguration and messages reloaded"
+command-usage: "&eUsage: /jls reload | /jls mute <player> | /jls unmute <player>"
+mute-success: "&e{player} &ahas been muted."
+mute-already: "&e{player} &cis already muted."
+unmute-success: "&e{player} &ahas been unmuted."
+unmute-not-found: "&cPlayer &e{player} &cis not in the mute list."

@@ -1,0 +1,14 @@
+# 冷却时间（秒），0 或负数表示无冷却
+cooldown:
+  join: 10
+  leave: 10
+  newbie: 0
+
+# 服务器统一语言，对应 lang/ 文件夹下的语言文件名（不含 .yml）
+language: zh_CN
+
+# OP 玩家进出是否触发音效（true = 不触发）
+op-bypass: false
+
+# 调试模式：开启后在控制台输出每次音效播放的详细信息
+debug: false
