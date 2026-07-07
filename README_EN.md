@@ -10,17 +10,17 @@ A lightweight Bukkit/Spigot/Paper plugin that plays configurable sounds to all o
 ---
 
 ## Features
-- 🎵 Customizable join/leave sounds (volume & pitch adjustable)
-- 👥 Permission-based group sound system (different sounds for different groups, prioritized)
-- 🆕 Newbie first-join exclusive sound (with independent cooldown)
-- 🔇 Mute player management (`/jls mute/unmute <player>`, works offline)
-- 🕒 Independent cooldowns (join/leave/newbie tracked separately to prevent noise from rapid joins/leaves)
-- 🔄 Hot reload (`/jls reload`)
-- 🌐 Multi-language support (`lang/zh_CN.yml`, `lang/en_US.yml`)
-- 🛡️ OP bypass toggle (OPs can be exempted from sounds)
-- 🐛 Debug mode (detailed matching logs in console)
-- 📁 Isolated storage (`muted-players.yml`, `groups.yml`)
-- 🚀 Pure Bukkit API, zero dependencies
+- Customizable join/leave sounds (volume & pitch adjustable)
+- Permission-based group sound system (different sounds for different groups, prioritized)
+- Newbie first-join exclusive sound (with independent cooldown)
+- Mute player management (`/jls mute/unmute <player>`, works offline)
+- Independent cooldowns (join/leave/newbie tracked separately to prevent noise from rapid joins/leaves)
+- Hot reload (`/jls reload`)
+- Multi-language support (`lang/zh_CN.yml`, `lang/en_US.yml`)
+- OP bypass toggle (OPs can be exempted from sounds)
+- Debug mode (detailed matching logs in console)
+- Isolated storage (`muted-players.yml`, `groups.yml`)
+- Pure Bukkit API, zero dependencies
 
 ---
 
