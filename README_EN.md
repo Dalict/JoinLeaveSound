@@ -4,8 +4,6 @@
 
 ## Introduction
 A lightweight Bukkit/Spigot/Paper plugin that plays configurable sounds to all online players when someone joins or leaves the server.  
-**Author: Dalict**  
-**Repository: https://github.com/Dalict/JoinLeaveSound**
 
 ---
 
