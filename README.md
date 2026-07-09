@@ -4,8 +4,6 @@
 
 ## 简介
 轻量级 Bukkit/Spigot/Paper 插件，在玩家加入或离开服务器时向全服播放自定义音效。ouo
-**作者：Dalict**  
-**开源地址：https://github.com/Dalict/JoinLeaveSound**
 
 ---
 
